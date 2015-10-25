@@ -10,4 +10,7 @@
     (is (= "2" (fizzbuzz 2))))
 
   (testing "when fizzbuzz is passed a three it returns fizz"
-    (is (= "fizz" (fizzbuzz 3)))))
+    (is (= "fizz" (fizzbuzz 3))))
+
+  (testing "when fizzbuzz is passed a five it returns buzz")
+    (is (= "buzz" (fizzbuzz 5))))

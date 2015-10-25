@@ -4,4 +4,6 @@
   [number]
   (if (= 3 number)
     (str "fizz")
-    (str number)))
+    (if (= 5 number)
+        (str "buzz")
+        (str number))))
