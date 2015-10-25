@@ -13,4 +13,10 @@
     (is (= "fizz" (fizzbuzz 3))))
 
   (testing "when fizzbuzz is passed a five it returns buzz")
-    (is (= "buzz" (fizzbuzz 5))))
+    (is (= "buzz" (fizzbuzz 5)))
+
+  (testing "when fizzbuzz is passed a multiple of three it returns fizz"
+    (is (= "fizz" (fizzbuzz 6))))
+
+  (testing "when fizzbuzz is passed a multiple of five it returns buzz"
+    (is (= "buzz" (fizzbuzz 10)))))

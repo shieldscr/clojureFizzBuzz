@@ -2,8 +2,8 @@
 
 (defn fizzbuzz
   [number]
-  (if (= 3 number)
+  (if (= 0 (mod number 3))
     (str "fizz")
-    (if (= 5 number)
+    (if (= 0 (mod number 5))
         (str "buzz")
         (str number))))
