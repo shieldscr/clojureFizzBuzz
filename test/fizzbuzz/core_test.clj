@@ -19,4 +19,7 @@
     (is (= "fizz" (fizzbuzz 6))))
 
   (testing "when fizzbuzz is passed a multiple of five it returns buzz"
-    (is (= "buzz" (fizzbuzz 10)))))
+    (is (= "buzz" (fizzbuzz 10))))
+
+  (testing "when fizzbuzz is passed both a multiple of three and five it returns fizzbuzz"
+    (is (= "fizzbuzz" (fizzbuzz 15)))))
