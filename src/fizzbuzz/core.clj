@@ -2,4 +2,6 @@
 
 (defn fizzbuzz
   [number]
-  (str number))
+  (if (= 3 number)
+    (str "fizz")
+    (str number)))
